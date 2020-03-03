@@ -1,5 +1,5 @@
 import React from "react";
-import { render } from "react-dom";
+// import { render } from "react-dom";
 import { Parallax } from "react-parallax";
 import Hello from "./Hello";
 
@@ -29,7 +29,7 @@ const App = () => (
     <Hello name="Parallax" />
     <Parallax bgImage={image1} strength={500}>
       <div style={{ height: 500 }}>
-        <div style={insideStyles}> SOul barbershop is the best in the area</div>
+        <div style={insideStyles}> Soul barbershop is the best in the area</div>
       </div>
     </Parallax>
     <h1>| | |</h1>
